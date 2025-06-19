@@ -5,20 +5,33 @@
 .inputNome label{
     display: block;
     margin-bottom: 8px;
-    font-size: 16pt;
-    font-family: monospace;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
+    color: #000000;
 }
 
 .inputNome input{
-    background-color: #FFF;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
     width: 100%;
-    border: none;
-    font-size: 24px;
+    font-size: 12pt;
+    height: 14px;
     padding: 24px;
     box-sizing: border-box;
-    border-radius: 10px ;
 
+    
+    border: 3px solid transparent; /* Bordas transparentes */
+    border-radius: 10px;
+
+    background-image: 
+        linear-gradient(white, white),  /* Fundo interno */
+        linear-gradient(to right, #6278F7, #92F6D7, rgba(0, 0, 0, 0.774)); /* Borda gradiente */
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+
+}
+.inputNome input:focus{
+  outline: none;
 }

@@ -7,13 +7,30 @@
     text-transform: uppercase;
 }
 .ListaSuspensa select{
-    background-color: #FFF;
+   
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
     width: 100%;
-    border: none;
-    font-size: 24px;
-    padding: 24px;
+    max-width: 100%;
+    
+   
+    font-size: 12pt;
+    padding: 15px;
     box-sizing: border-box;
     border-radius: 10px ;
+    border: 3px solid transparent; /* Bordas transparentes */
+    border-radius: 15px;
+    
+    
 
+    background-image: 
+        linear-gradient(white, white),  /* Fundo interno */
+        linear-gradient(to right, #6278F7, #92F6D7, rgba(0, 0, 0, 0.774)); /* Borda gradiente */
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+
+}
+
+.ListaSuspensa select:focus{
+    outline: none;
 }

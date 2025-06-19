@@ -5,16 +5,18 @@
 }
 .formulario form{
     max-width: 80%;
-    background-color: #F2F2F2;
+    background-image: linear-gradient(to bottom, #6278F7, rgb(157, 157, 157));
     border-radius: 20px;
     padding: 36px 64px;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.10);
+  
 }
 
 .formulario h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
-    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
+    color: #FFFFFF;
+   margin-top: 2px;
 }

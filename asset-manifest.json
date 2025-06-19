@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Organodev/static/css/main.a635a0a5.css",
+    "main.js": "/Organodev/static/js/main.52f09bbc.js",
+    "index.html": "/Organodev/index.html",
+    "main.a635a0a5.css.map": "/Organodev/static/css/main.a635a0a5.css.map",
+    "main.52f09bbc.js.map": "/Organodev/static/js/main.52f09bbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a635a0a5.css",
+    "static/js/main.52f09bbc.js"
+  ]
+}
